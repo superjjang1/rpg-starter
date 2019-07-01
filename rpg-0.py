@@ -6,6 +6,18 @@ In this simple RPG game, the hero fights the goblin. He has the options to:
 3. flee
 
 """
+class hero_class():
+    def __init__ (self, hero_health, hero_power):
+       
+        self.hero_health = hero_health
+        self.hero_power = hero_power
+
+class goblin_class():
+    def __init__ (self, goblin_health, goblin_power):
+    
+        self.goblin_health = goblin_health
+        self.goblin_power = goblin_power
+
 
 def main():
     hero_health = 10
